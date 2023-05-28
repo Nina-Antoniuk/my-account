@@ -1,0 +1,75 @@
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+.link {
+    color: #1d1da1;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-position: 20% 50%;
+    background-image: url('https://cdn.pixabay.com/photo/2022/09/09/15/02/magical-forest-7443155_1280.jpg');
+}
+
+.img-wrapp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 40px;
+    background-color: rgba(49, 48, 48, 0.323);
+    padding: 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(176, 176, 245);
+}
+
+.main-header {
+    display: none;
+}
+
+.card {
+    flex-basis: 25%;
+    height: 400px;
+    padding: 30px;
+    border: 1 px solid gray;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    background-color: #fff;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+}
